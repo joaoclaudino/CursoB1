@@ -1,0 +1,11 @@
+E:\CursoB1Source\CursoSapB1\PegarEventos\bin\x64\Debug\PegarEventos.exe.config
+E:\CursoB1Source\CursoSapB1\PegarEventos\bin\x64\Debug\PegarEventos.exe
+E:\CursoB1Source\CursoSapB1\PegarEventos\bin\x64\Debug\PegarEventos.pdb
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.csprojAssemblyReference.cache
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.Properties.Resources.resources
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.exe
+E:\CursoB1Source\CursoSapB1\PegarEventos\obj\x64\Debug\PegarEventos.pdb
