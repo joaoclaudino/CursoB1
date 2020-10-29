@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdicionarMenus", "Adicionar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsandoMatrix", "UsandoMatrix\UsandoMatrix.csproj", "{B46A1A1D-E579-43C9-B70C-D1BF1D392295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormularioComplexo", "FormularioComplexo\FormularioComplexo.csproj", "{445138D5-4923-44DB-AFA4-37FE2569BA6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{B46A1A1D-E579-43C9-B70C-D1BF1D392295}.Release|x64.Build.0 = Release|Any CPU
 		{B46A1A1D-E579-43C9-B70C-D1BF1D392295}.Release|x86.ActiveCfg = Release|Any CPU
 		{B46A1A1D-E579-43C9-B70C-D1BF1D392295}.Release|x86.Build.0 = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|x64.ActiveCfg = Debug|x64
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|x64.Build.0 = Debug|x64
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Debug|x86.Build.0 = Debug|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|x64.ActiveCfg = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|x64.Build.0 = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{445138D5-4923-44DB-AFA4-37FE2569BA6C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+E:\CursoB1Source\CursoB1\FormularioComplexo\bin\x64\Debug\FormularioComplexo.exe.config
+E:\CursoB1Source\CursoB1\FormularioComplexo\bin\x64\Debug\FormularioComplexo.exe
+E:\CursoB1Source\CursoB1\FormularioComplexo\bin\x64\Debug\FormularioComplexo.pdb
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csprojAssemblyReference.cache
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.exe
+E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.pdb

@@ -1,5 +1,4 @@
-﻿using Microsoft.SqlServer.Server;
-using SAPbouiCOM;
+﻿using SAPbouiCOM;
 using System;
 //using System.Windows.Forms;
 //using System.Collections.Generic;
