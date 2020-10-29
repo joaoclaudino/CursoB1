@@ -1,0 +1,8 @@
+E:\CursoB1Source\CursoB1\UsandoMatrix\bin\x64\Debug\UsandoMatrix.exe.config
+E:\CursoB1Source\CursoB1\UsandoMatrix\bin\x64\Debug\UsandoMatrix.exe
+E:\CursoB1Source\CursoB1\UsandoMatrix\bin\x64\Debug\UsandoMatrix.pdb
+E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.exe
+E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.pdb

@@ -8,3 +8,13 @@ E:\CursoB1Source\CursoSapB1\OlaSapB1\obj\x64\Debug\OlaSapB1.exe
 E:\CursoB1Source\CursoSapB1\OlaSapB1\obj\x64\Debug\OlaSapB1.pdb
 E:\CursoB1Source\CursoSapB1\OlaSapB1\obj\x64\Debug\Interop.SAPbouiCOM.dll
 E:\CursoB1Source\CursoSapB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\OlaSapB1\bin\x64\Debug\OlaSapB1.exe.config
+E:\CursoB1Source\CursoB1\OlaSapB1\bin\x64\Debug\OlaSapB1.exe
+E:\CursoB1Source\CursoB1\OlaSapB1\bin\x64\Debug\OlaSapB1.pdb
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.Properties.Resources.resources
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.exe
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.pdb

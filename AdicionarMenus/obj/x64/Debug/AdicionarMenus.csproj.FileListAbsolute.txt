@@ -1,0 +1,14 @@
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\AdicionarMenus.exe.config
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\AdicionarMenus.exe
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\AdicionarMenus.pdb
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.Properties.Resources.resources
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.exe
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.pdb
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\UI.bmp
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\UI1.bmp
+E:\CursoB1Source\CursoB1\AdicionarMenus\bin\x64\Debug\UI2.bmp
+E:\CursoB1Source\CursoB1\AdicionarMenus\obj\x64\Debug\AdicionarMenus.csprojAssemblyReference.cache

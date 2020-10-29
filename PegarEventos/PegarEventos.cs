@@ -26,13 +26,13 @@ namespace PegarEventos
             SetApplication();
 
             //1-app Events
-            //oApplication.AppEvent += OApplication_AppEvent;
+            oApplication.AppEvent += OApplication_AppEvent;
             //2-Menu Events
-            //oApplication.MenuEvent += OApplication_MenuEvent;
+            oApplication.MenuEvent += OApplication_MenuEvent;
             //3-Item Events
-            //oApplication.ItemEvent += OApplication_ItemEvent;
+            oApplication.ItemEvent += OApplication_ItemEvent;
             //4-ProgressBarEvents
-            //oApplication.ProgressBarEvent += OApplication_ProgressBarEvent;
+            oApplication.ProgressBarEvent += OApplication_ProgressBarEvent;
             //5-Status BarEvents
             oApplication.StatusBarEvent += OApplication_StatusBarEvent;
 
