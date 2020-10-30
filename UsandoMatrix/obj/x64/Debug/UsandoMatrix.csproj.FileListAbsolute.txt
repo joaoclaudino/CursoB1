@@ -6,4 +6,3 @@ E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.csproj.ResolveC
 E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.exe
 E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.pdb
-E:\CursoB1Source\CursoB1\UsandoMatrix\obj\x64\Debug\UsandoMatrix.csprojAssemblyReference.cache

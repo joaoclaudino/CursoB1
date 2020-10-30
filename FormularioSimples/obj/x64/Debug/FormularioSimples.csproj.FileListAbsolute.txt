@@ -12,7 +12,6 @@ E:\CursoB1Source\CursoSapB1\FormularioSimples\obj\x64\Debug\FormularioSimples.cs
 E:\CursoB1Source\CursoB1\FormularioSimples\bin\x64\Debug\FormularioSimples.exe.config
 E:\CursoB1Source\CursoB1\FormularioSimples\bin\x64\Debug\FormularioSimples.exe
 E:\CursoB1Source\CursoB1\FormularioSimples\bin\x64\Debug\FormularioSimples.pdb
-E:\CursoB1Source\CursoB1\FormularioSimples\obj\x64\Debug\FormularioSimples.csprojAssemblyReference.cache
 E:\CursoB1Source\CursoB1\FormularioSimples\obj\x64\Debug\Interop.SAPbouiCOM.dll
 E:\CursoB1Source\CursoB1\FormularioSimples\obj\x64\Debug\FormularioSimples.csproj.ResolveComReference.cache
 E:\CursoB1Source\CursoB1\FormularioSimples\obj\x64\Debug\FormularioSimples.Properties.Resources.resources
