@@ -13,6 +13,9 @@ namespace HelperB1
             , int pHeight
             , string pCaption
             , string pLinkTo = ""
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
             )
         {
             Item oItem = pForm.Items.Add(pUID, BoFormItemTypes.it_STATIC);
@@ -21,7 +24,15 @@ namespace HelperB1
             oItem.Width = pWidth;
             oItem.Top = pTop;
             oItem.Height = pHeight;
-            oItem.AffectsFormMode = false;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
             oItem.LinkTo = pLinkTo;
             oStaticText = ((SAPbouiCOM.StaticText)(oItem.Specific));
             oStaticText.Caption = pCaption;
@@ -34,7 +45,9 @@ namespace HelperB1
             , int pWidth
             , int pTop
             , int pHeight
-            )
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0)
         {
             Item oItem = pForm.Items.Add(pUID, BoFormItemTypes.it_EDIT);
             SAPbouiCOM.EditText oEditText = null;
@@ -42,7 +55,15 @@ namespace HelperB1
             oItem.Width = pWidth;
             oItem.Top = pTop;
             oItem.Height = pHeight;
-            oItem.AffectsFormMode = false;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
             oEditText = ((SAPbouiCOM.EditText)(oItem.Specific));
             return oEditText;
         }
@@ -54,6 +75,9 @@ namespace HelperB1
             , int pWidth
             , int pTop
             , int pHeight
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
             )
         {
             SAPbouiCOM.Item oItem = null;
@@ -64,7 +88,15 @@ namespace HelperB1
             oItem.Width = pWidth;
             oItem.Top = pTop;
             oItem.Height = pHeight;
-            oItem.AffectsFormMode = false;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
             oItem.DisplayDesc = true;
             oComboBox = ((SAPbouiCOM.ComboBox)(oItem.Specific));
             return oComboBox;
@@ -77,6 +109,9 @@ namespace HelperB1
             , int pWidth
             , int pTop
             , int pHeight
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
             )
         {
             Item oItem = pForm.Items.Add(pUID, BoFormItemTypes.it_RECTANGLE);
@@ -84,7 +119,15 @@ namespace HelperB1
             oItem.Width = pWidth;
             oItem.Top = pTop;
             oItem.Height = pHeight;
-            oItem.AffectsFormMode = false;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
             return oItem;
         }
 
@@ -96,6 +139,9 @@ namespace HelperB1
             , int pTop
             , int pHeight
             , string pCaption
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
             )
         {
             SAPbouiCOM.Item oItem = null;
@@ -106,12 +152,100 @@ namespace HelperB1
             oItem.Width = pWidth;
             oItem.Top = pTop;
             oItem.Height = pHeight;
-            oItem.AffectsFormMode = false;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
 
             oButton = ((SAPbouiCOM.Button)(oItem.Specific));
             oButton.Caption = pCaption;
 
             return oButton;
+        }
+
+        public static SAPbouiCOM.CheckBox AddCheckBoxAoFormulario(
+            SAPbouiCOM.Form pForm
+            , string pUID
+            , int pLeft
+            , int pWidth
+            , int pTop
+            , int pHeight
+            , string pCaption
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
+            
+            )
+        {
+            SAPbouiCOM.Item oItem = null;
+            SAPbouiCOM.CheckBox oCheckBox = null;
+
+            oItem = pForm.Items.Add(pUID, SAPbouiCOM.BoFormItemTypes.it_CHECK_BOX);
+            oItem.Left = pLeft;
+            oItem.Width = pWidth;
+            oItem.Top = pTop;
+            oItem.Height = pHeight;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane>0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane>0)
+            {
+                oItem.ToPane = pToPane;
+            }
+
+            oCheckBox = ((SAPbouiCOM.CheckBox)(oItem.Specific));
+            oCheckBox.Caption = pCaption;
+
+            return oCheckBox;
+        }
+
+        public static SAPbouiCOM.OptionBtn AddOptionButtonAoFormulario(
+            SAPbouiCOM.Form pForm
+            , string pUID
+            , int pLeft
+            , int pWidth
+            , int pTop
+            , int pHeight
+            , string pCaption
+            , string pGroupWith
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
+
+            )
+        {
+            SAPbouiCOM.Item oItem = null;
+            SAPbouiCOM.OptionBtn oOptionBtn = null;
+
+            oItem = pForm.Items.Add(pUID, SAPbouiCOM.BoFormItemTypes.it_OPTION_BUTTON);
+            oItem.Left = pLeft;
+            oItem.Width = pWidth;
+            oItem.Top = pTop;
+            oItem.Height = pHeight;
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
+
+            oOptionBtn = ((SAPbouiCOM.OptionBtn)(oItem.Specific));
+            oOptionBtn.Caption = pCaption;
+            if (!string.IsNullOrEmpty(pGroupWith))
+            {
+                oOptionBtn.GroupWith(pGroupWith);
+            }
+            return oOptionBtn;
         }
     }
 }
