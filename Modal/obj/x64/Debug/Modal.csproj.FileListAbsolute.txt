@@ -1,0 +1,12 @@
+E:\CursoB1Source\CursoB1\Modal\bin\x64\Debug\Modal.exe.config
+E:\CursoB1Source\CursoB1\Modal\bin\x64\Debug\Modal.exe
+E:\CursoB1Source\CursoB1\Modal\bin\x64\Debug\Modal.pdb
+E:\CursoB1Source\CursoB1\Modal\bin\x64\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1\Modal\bin\x64\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.csprojAssemblyReference.cache
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.csproj.CopyComplete
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.exe
+E:\CursoB1Source\CursoB1\Modal\obj\x64\Debug\Modal.pdb
