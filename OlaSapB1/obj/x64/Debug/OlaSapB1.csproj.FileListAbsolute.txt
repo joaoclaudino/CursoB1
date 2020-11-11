@@ -18,3 +18,4 @@ E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.GenerateResource
 E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.exe
 E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.pdb
+E:\CursoB1Source\CursoB1\OlaSapB1\obj\x64\Debug\OlaSapB1.csprojAssemblyReference.cache
