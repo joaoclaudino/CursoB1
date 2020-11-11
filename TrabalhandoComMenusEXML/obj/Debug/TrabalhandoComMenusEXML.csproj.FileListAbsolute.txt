@@ -1,0 +1,14 @@
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\MenuIcon.bmp
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\MeusMenus.xml
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\TrabalhandoComMenusEXML.exe.config
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\TrabalhandoComMenusEXML.exe
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\TrabalhandoComMenusEXML.pdb
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\bin\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.csprojAssemblyReference.cache
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.csproj.CopyComplete
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.exe
+E:\CursoB1Source\CursoB1\TrabalhandoComMenusEXML\obj\Debug\TrabalhandoComMenusEXML.pdb

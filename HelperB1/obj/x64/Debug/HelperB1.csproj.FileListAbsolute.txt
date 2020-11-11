@@ -5,4 +5,3 @@ E:\CursoB1Source\CursoB1\HelperB1\obj\x64\Debug\HelperB1.csproj.ResolveComRefere
 E:\CursoB1Source\CursoB1\HelperB1\obj\x64\Debug\HelperB1.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\HelperB1\obj\x64\Debug\HelperB1.dll
 E:\CursoB1Source\CursoB1\HelperB1\obj\x64\Debug\HelperB1.pdb
-E:\CursoB1Source\CursoB1\HelperB1\obj\x64\Debug\HelperB1.csprojAssemblyReference.cache
