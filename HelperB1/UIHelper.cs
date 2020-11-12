@@ -1,4 +1,5 @@
 ﻿using SAPbouiCOM;
+using System.Windows.Forms;
 
 namespace HelperB1
 {
@@ -61,9 +62,12 @@ namespace HelperB1
             , int pWidth
             , int pTop
             , int pHeight
+            , string pLinkTo
             , bool AffectsFormMode = false
             , int pFromPane = 0
-            , int pToPane = 0)
+            , int pToPane = 0
+            
+            )
         {
             Item oItem = pForm.Items.Add(pUID, BoFormItemTypes.it_EDIT);
             SAPbouiCOM.EditText oEditText = null;
@@ -92,6 +96,11 @@ namespace HelperB1
             {
                 oItem.ToPane = pToPane;
             }
+            if (!string.IsNullOrEmpty(pLinkTo))
+            {
+                oItem.LinkTo = pLinkTo;
+            }
+            
             oEditText = ((SAPbouiCOM.EditText)(oItem.Specific));
             return oEditText;
         }
@@ -232,6 +241,57 @@ namespace HelperB1
             return oButton;
         }
 
+        public static SAPbouiCOM.Button AddBotaoImagemAoFormulario(
+            SAPbouiCOM.Form pForm
+            , string pUID
+            , int pLeft
+            , int pWidth
+            , int pTop
+            , int pHeight
+            , string pImagem
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
+            )
+        {
+            SAPbouiCOM.Item oItem = null;
+            SAPbouiCOM.Button oButton = null;
+
+            oItem = pForm.Items.Add(pUID, SAPbouiCOM.BoFormItemTypes.it_BUTTON);
+            if (pLeft > 0)
+            {
+                oItem.Left = pLeft;
+            }
+            if (pWidth > 0)
+            {
+                oItem.Width = pWidth;
+            }
+            if (pTop > 0)
+            {
+                oItem.Top = pTop;
+            }
+            if (pHeight > 0)
+            {
+                oItem.Height = pHeight;
+            }
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
+
+            oButton = ((SAPbouiCOM.Button)(oItem.Specific));
+            oButton.Type = BoButtonTypes.bt_Image;
+            oButton.Image = pImagem;
+            //oButton.Caption = pCaption;
+
+            return oButton;
+        }
+
         public static SAPbouiCOM.CheckBox AddCheckBoxAoFormulario(
             SAPbouiCOM.Form pForm
             , string pUID
@@ -345,6 +405,7 @@ namespace HelperB1
             , int pClientWidth
             ,bool pAutoManaged
             ,int pSupportedModes
+            ,string pTitle
             )
         {
             SAPbouiCOM.Form oForm;
@@ -357,6 +418,12 @@ namespace HelperB1
             cp.UniqueID = pUniqueID;
 
             oForm = oApplication.Forms.AddEx(cp);
+
+            if (!string.IsNullOrEmpty(pTitle))
+            {
+                oForm.Title = pTitle;
+            }
+            
 
             if (pClientHeight>0)
             {
@@ -373,6 +440,20 @@ namespace HelperB1
 
 
             return oForm;
+        }
+
+        public static void LoadFromXML(
+            SAPbouiCOM.Application oApplication
+            ,ref string pFileNAme
+            )
+        {
+            System.Xml.XmlDocument oXmlDoc = null;
+            oXmlDoc = new System.Xml.XmlDocument();
+            string sPath = null;
+            sPath = System.Windows.Forms.Application.StartupPath;
+            oXmlDoc.Load(sPath + "\\" + pFileNAme);
+            string sXML = oXmlDoc.InnerXml.ToString();
+            oApplication.LoadBatchActions(ref sXML);
         }
     }
 }

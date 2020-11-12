@@ -51,7 +51,7 @@ namespace ModalForms
 
         public void CreateModalForm()
         {
-            this.oForm = UIHelper.CriarForm(this.oApplication, SAPbouiCOM.BoFormBorderStyle.fbs_Fixed, "Modal1", "Modal1", 170, 150, true, 0);
+            this.oForm = UIHelper.CriarForm(this.oApplication, SAPbouiCOM.BoFormBorderStyle.fbs_Fixed, "Modal1", "Modal1", 170, 150, true, 0,"Formulário Modal");
 
             this.oButtonOK = UIHelper.AddBotaoAoFormulario(this.oForm, "1", 10, 0, 100, 0, "Ok", false);
             this.oStaticTextMeuStatic = UIHelper.AdcionarStaticTextAoFormulario(this.oForm, "st01", 0, 160, 0, 0, "Eu Sou um Formulário Modal!!");

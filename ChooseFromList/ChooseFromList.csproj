@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0588A8C-AE0C-4779-9847-7905E114C4F1}</ProjectGuid>
+    <ProjectGuid>{1A2FEC52-C5BD-4D9A-8F28-641E82DD3A45}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ChooseFromList</RootNamespace>
     <AssemblyName>ChooseFromList</AssemblyName>
@@ -54,6 +54,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ChooseFromList.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelperB1\HelperB1.csproj">
-      <Project>{3B62639B-BE2A-43F6-84CA-95AAADFDBC66}</Project>
+      <Project>{3b62639b-be2a-43f6-84ca-95aaadfdbc66}</Project>
       <Name>HelperB1</Name>
     </ProjectReference>
   </ItemGroup>

@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ChooseFromList
 {
-    class Program
+    public class Program
     {
+
+
+
         static void Main(string[] args)
         {
             ChooseFromList oChooseFromList = new ChooseFromList();

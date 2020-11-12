@@ -9,14 +9,14 @@ namespace HelperB1
 {
     public static class UserDataSourceHelper
     {
-        public static void AddUserDataSource(
+        public static SAPbouiCOM.UserDataSource AddUserDataSource(
             SAPbouiCOM.Form pForm
             , string pUID
             , BoDataType pDataType
             , int pLength = 254
         )
         {
-            pForm.DataSources.UserDataSources.Add(pUID, pDataType, pLength);
+           return  pForm.DataSources.UserDataSources.Add(pUID, pDataType, pLength);
         }
     }
 }
