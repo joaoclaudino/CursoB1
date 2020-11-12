@@ -406,6 +406,8 @@ namespace HelperB1
             ,bool pAutoManaged
             ,int pSupportedModes
             ,string pTitle
+            ,int pHeight=0
+            ,int pWidth=0
             )
         {
             SAPbouiCOM.Form oForm;
@@ -422,8 +424,7 @@ namespace HelperB1
             if (!string.IsNullOrEmpty(pTitle))
             {
                 oForm.Title = pTitle;
-            }
-            
+            }            
 
             if (pClientHeight>0)
             {
@@ -433,8 +434,17 @@ namespace HelperB1
             {
                 oForm.ClientWidth = pClientWidth;
             }
-            
-            
+
+            if (pHeight>0)
+            {
+                oForm.Height = pHeight;
+            }
+
+            if (pWidth>0)
+            {
+                oForm.Width = pWidth;
+            }
+
             oForm.AutoManaged = pAutoManaged;
             oForm.SupportedModes = pSupportedModes;
 

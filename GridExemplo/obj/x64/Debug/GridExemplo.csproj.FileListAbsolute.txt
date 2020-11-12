@@ -1,0 +1,12 @@
+E:\CursoB1Source\CursoB1\GridExemplo\bin\x64\Debug\GridExemplo.exe.config
+E:\CursoB1Source\CursoB1\GridExemplo\bin\x64\Debug\GridExemplo.exe
+E:\CursoB1Source\CursoB1\GridExemplo\bin\x64\Debug\GridExemplo.pdb
+E:\CursoB1Source\CursoB1\GridExemplo\bin\x64\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1\GridExemplo\bin\x64\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.csproj.CopyComplete
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.exe
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.pdb
+E:\CursoB1Source\CursoB1\GridExemplo\obj\x64\Debug\GridExemplo.csprojAssemblyReference.cache
