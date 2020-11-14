@@ -408,6 +408,8 @@ namespace HelperB1
             ,string pTitle
             ,int pHeight=0
             ,int pWidth=0
+            , int pTop = 0
+            , int pLeft = 0
             )
         {
             SAPbouiCOM.Form oForm;
@@ -424,8 +426,15 @@ namespace HelperB1
             if (!string.IsNullOrEmpty(pTitle))
             {
                 oForm.Title = pTitle;
-            }            
-
+            }
+            if (pTop > 0)
+            {
+                oForm.Top = pTop;
+            }
+            if (pLeft > 0)
+            {
+                oForm.Left = pLeft;
+            }
             if (pClientHeight>0)
             {
                 oForm.ClientHeight = pClientHeight;
@@ -465,5 +474,45 @@ namespace HelperB1
             string sXML = oXmlDoc.InnerXml.ToString();
             oApplication.LoadBatchActions(ref sXML);
         }
+
+        public static SAPbouiCOM.Matrix AddMatrixAoFormulario(
+                    SAPbouiCOM.Form pForm
+                    , string pUID
+                    , int pLeft
+                    , int pWidth
+                    , int pTop
+                    , int pHeight
+                    , SAPbouiCOM.BoMatrixSelect pBoMatrixSelect
+
+
+            )
+        {
+
+            SAPbouiCOM.Item oItem;
+            SAPbouiCOM.Matrix oMatrix;
+
+            oItem = pForm.Items.Add(pUID, SAPbouiCOM.BoFormItemTypes.it_MATRIX);
+            if (pLeft > 0)
+            {
+                oItem.Left = pLeft;
+            }
+            if (pWidth > 0)
+            {
+                oItem.Width = pWidth;
+            }
+            if (pTop > 0)
+            {
+                oItem.Top = pTop;
+            }
+            if (pHeight > 0)
+            {
+                oItem.Height = pHeight;
+            }
+            oMatrix = ((SAPbouiCOM.Matrix)(oItem.Specific));
+            oMatrix.SelectionMode = pBoMatrixSelect;
+
+            return oMatrix;
+        }
+
     }
 }

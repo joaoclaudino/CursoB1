@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabOrder", "TabOrder\TabOrd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridExemplo", "GridExemplo\GridExemplo.csproj", "{45140AC8-A193-4B2A-BD61-7E574AE580B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSettings", "FormSettings\FormSettings.csproj", "{01450BA4-29FF-4133-9DA4-702011000945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +253,18 @@ Global
 		{45140AC8-A193-4B2A-BD61-7E574AE580B8}.Release|x64.Build.0 = Release|Any CPU
 		{45140AC8-A193-4B2A-BD61-7E574AE580B8}.Release|x86.ActiveCfg = Release|Any CPU
 		{45140AC8-A193-4B2A-BD61-7E574AE580B8}.Release|x86.Build.0 = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|x64.ActiveCfg = Debug|x64
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|x64.Build.0 = Debug|x64
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Debug|x86.Build.0 = Debug|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x64.ActiveCfg = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x64.Build.0 = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x86.ActiveCfg = Release|Any CPU
+		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
