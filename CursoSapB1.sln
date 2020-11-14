@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridExemplo", "GridExemplo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormSettings", "FormSettings\FormSettings.csproj", "{01450BA4-29FF-4133-9DA4-702011000945}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickBotaoDireitoDoMouse", "ClickBotaoDireitoDoMouse\ClickBotaoDireitoDoMouse.csproj", "{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,18 @@ Global
 		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x64.Build.0 = Release|Any CPU
 		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x86.ActiveCfg = Release|Any CPU
 		{01450BA4-29FF-4133-9DA4-702011000945}.Release|x86.Build.0 = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|x64.ActiveCfg = Debug|x64
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|x64.Build.0 = Debug|x64
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Debug|x86.Build.0 = Debug|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|x64.Build.0 = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C27D0A9-B8DD-42F8-9C45-1A45296AA672}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
