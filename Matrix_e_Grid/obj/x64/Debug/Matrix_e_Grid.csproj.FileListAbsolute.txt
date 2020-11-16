@@ -1,0 +1,16 @@
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\Matrix_e_Grid.exe.config
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\Matrix_e_Grid.exe
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\Matrix_e_Grid.pdb
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.csprojAssemblyReference.cache
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.Form1.resources
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.Properties.Resources.resources
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.csproj.CopyComplete
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.exe
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\obj\x64\Debug\Matrix_e_Grid.pdb
+E:\CursoB1Source\CursoB1\Matrix_e_Grid\bin\x64\Debug\Interop.SAPbouiCOM.dll

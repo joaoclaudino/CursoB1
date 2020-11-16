@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="AppHelper.cs" />
     <Compile Include="Colors.cs" />
+    <Compile Include="MatrixHelper.cs" />
     <Compile Include="UIHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDataSourceHelper.cs" />

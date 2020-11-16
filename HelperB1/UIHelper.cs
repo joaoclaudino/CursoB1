@@ -514,5 +514,31 @@ namespace HelperB1
             return oMatrix;
         }
 
+        public static SAPbouiCOM.Grid AddGridAoFormulario(
+
+                    SAPbouiCOM.Form pForm
+                    , string pUID
+                    , int pLeft
+                    , int pWidth
+                    , int pTop
+                    , int pHeight
+                    , SAPbouiCOM.BoMatrixSelect pBoMatrixSelect
+                    , SAPbouiCOM.DataTable pDataTable
+            )
+        {
+            SAPbouiCOM.Grid oGrid;
+
+            SAPbouiCOM.Item oItem = pForm.Items.Add(pUID, SAPbouiCOM.BoFormItemTypes.it_GRID);
+            oGrid = ((SAPbouiCOM.Grid)(oItem.Specific));
+            oGrid.Item.Left = pLeft;
+            oGrid.Item.Top = pTop;
+            oGrid.Item.Height = pHeight;
+            oGrid.Item.Width = pWidth;
+            oGrid.SelectionMode = pBoMatrixSelect;
+            oGrid.DataTable = pDataTable;
+
+            return oGrid;
+        }
+
     }
 }
