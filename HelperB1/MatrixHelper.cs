@@ -9,7 +9,7 @@ namespace HelperB1
 {
     public static class MatrixHelper
     {
-        public static void addoColumn(
+        public static SAPbouiCOM.Column addoColumn(
             SAPbouiCOM.IMatrix pMatrix
             , string pUID, BoFormItemTypes pType
             , int pWidth
@@ -25,7 +25,7 @@ namespace HelperB1
             ,int pForeColor
             )
         {
-            SAPbouiCOM.IColumn oColumn;
+            SAPbouiCOM.Column oColumn;
             oColumn = pMatrix.Columns.Add(pUID, pType);
             if (pWidth>0)
             {
@@ -49,6 +49,8 @@ namespace HelperB1
             {
                 oColumn.ForeColor = pForeColor;
             }
+
+            return oColumn;
 
         }
     }

@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selecionador", "Selecionado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_e_Grid", "Matrix_e_Grid\Matrix_e_Grid.csproj", "{F5BC1A13-5B0B-4C02-8659-660031CE7DCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMais", "MatrixMais\MatrixMais.csproj", "{27E67DAD-9AE2-4C70-9836-BFA9917DA866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,18 @@ Global
 		{F5BC1A13-5B0B-4C02-8659-660031CE7DCA}.Release|x64.Build.0 = Release|Any CPU
 		{F5BC1A13-5B0B-4C02-8659-660031CE7DCA}.Release|x86.ActiveCfg = Release|Any CPU
 		{F5BC1A13-5B0B-4C02-8659-660031CE7DCA}.Release|x86.Build.0 = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|x64.ActiveCfg = Debug|x64
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|x64.Build.0 = Debug|x64
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Debug|x86.Build.0 = Debug|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|x64.ActiveCfg = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|x64.Build.0 = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|x86.ActiveCfg = Release|Any CPU
+		{27E67DAD-9AE2-4C70-9836-BFA9917DA866}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

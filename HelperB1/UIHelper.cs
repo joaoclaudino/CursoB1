@@ -1,4 +1,5 @@
 ﻿using SAPbouiCOM;
+using System;
 using System.Windows.Forms;
 
 namespace HelperB1
@@ -413,6 +414,18 @@ namespace HelperB1
             )
         {
             SAPbouiCOM.Form oForm;
+
+            try
+            {
+                oForm = oApplication.Forms.Item(pUniqueID);
+                oForm.Close();
+                oForm = null;
+                GC.Collect();                
+            }
+            catch
+            {
+            }
+
             SAPbouiCOM.FormCreationParams cp = null;
             cp = ((SAPbouiCOM.FormCreationParams)(oApplication.CreateObject(SAPbouiCOM.BoCreatableObjectType.cot_FormCreationParams)));
 
