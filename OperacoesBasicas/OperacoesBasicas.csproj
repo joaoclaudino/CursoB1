@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D941B84-5047-4DF0-943A-102F1F5C4B8B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OperacoesBasicas</RootNamespace>
+    <AssemblyName>OperacoesBasicas</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscaPorChaveEFiltros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscaPorChaveEFiltros.Designer.cs">
+      <DependentUpon>frmBuscaPorChaveEFiltros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarDados.Designer.cs">
+      <DependentUpon>frmBuscarDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChavePrivada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChavePrivada.Designer.cs">
+      <DependentUpon>frmChavePrivada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEscolherBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEscolherBD.Designer.cs">
+      <DependentUpon>frmEscolherBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormatacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormatacao.Designer.cs">
+      <DependentUpon>frmFormatacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaDataVencimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaDataVencimento.Designer.cs">
+      <DependentUpon>frmListaDataVencimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaDeposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaDeposito.Designer.cs">
+      <DependentUpon>frmListaDeposito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaItens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaItens.Designer.cs">
+      <DependentUpon>frmListaItens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaParceiroDeNegocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaParceiroDeNegocios.Designer.cs">
+      <DependentUpon>frmListaParceiroDeNegocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaUsuario.Designer.cs">
+      <DependentUpon>frmListaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrecoDoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrecoDoItem.Designer.cs">
+      <DependentUpon>frmPrecoDoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecordSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecordSet.Designer.cs">
+      <DependentUpon>frmRecordSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserFields.Designer.cs">
+      <DependentUpon>frmUserFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserTable.Designer.cs">
+      <DependentUpon>frmUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscaPorChaveEFiltros.resx">
+      <DependentUpon>frmBuscaPorChaveEFiltros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarDados.resx">
+      <DependentUpon>frmBuscarDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChavePrivada.resx">
+      <DependentUpon>frmChavePrivada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEscolherBD.resx">
+      <DependentUpon>frmEscolherBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFormatacao.resx">
+      <DependentUpon>frmFormatacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaDataVencimento.resx">
+      <DependentUpon>frmListaDataVencimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaDeposito.resx">
+      <DependentUpon>frmListaDeposito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaItens.resx">
+      <DependentUpon>frmListaItens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaParceiroDeNegocios.resx">
+      <DependentUpon>frmListaParceiroDeNegocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaUsuario.resx">
+      <DependentUpon>frmListaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrecoDoItem.resx">
+      <DependentUpon>frmPrecoDoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecordSet.resx">
+      <DependentUpon>frmRecordSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserFields.resx">
+      <DependentUpon>frmUserFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserTable.resx">
+      <DependentUpon>frmUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SAPbobsCOM">
+      <Guid>{FC8030BE-F5D2-4B8E-8F92-44228FE30090}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OperacoesBasicas.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UsuarioDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="SenhaDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123@Mudar</Value>
+    </Setting>
+    <Setting Name="UsuarioSAP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">manager</Value>
+    </Setting>
+    <Setting Name="SenhaSAP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1234</Value>
+    </Setting>
+    <Setting Name="LicenceServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WIN-3ILJ2PUQN5R</Value>
+    </Setting>
+    <Setting Name="ServidorDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WIN-3ILJ2PUQN5R</Value>
+    </Setting>
+    <Setting Name="NomeDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SBODemoBR_31_10_2020</Value>
+    </Setting>
+    <Setting Name="DBType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
