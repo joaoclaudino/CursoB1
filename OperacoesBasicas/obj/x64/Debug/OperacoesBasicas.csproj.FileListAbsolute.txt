@@ -1,7 +1,6 @@
 E:\CursoB1Source\CursoB1\OperacoesBasicas\bin\x64\Debug\OperacoesBasicas.exe.config
 E:\CursoB1Source\CursoB1\OperacoesBasicas\bin\x64\Debug\OperacoesBasicas.exe
 E:\CursoB1Source\CursoB1\OperacoesBasicas\bin\x64\Debug\OperacoesBasicas.pdb
-E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.csprojAssemblyReference.cache
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.Form1.resources
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.Properties.Resources.resources
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.csproj.GenerateResource.cache
@@ -24,3 +23,5 @@ E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.frmList
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.frmListaDeposito.resources
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.frmFormatacao.resources
 E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.frmBuscaPorChaveEFiltros.resources
+E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.SerialELote.frmGestaoDeItens.resources
+E:\CursoB1Source\CursoB1\OperacoesBasicas\obj\x64\Debug\OperacoesBasicas.csprojAssemblyReference.cache

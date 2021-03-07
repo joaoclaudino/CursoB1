@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OperacoesBasicas.SerialELote;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -145,6 +146,12 @@ namespace OperacoesBasicas
         {
             frmBuscaPorChaveEFiltros ofrmBuscaPorChaveEFiltros = new frmBuscaPorChaveEFiltros();
             ofrmBuscaPorChaveEFiltros.ShowDialog();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            frmGestaoDeItens ofrmGestaoDeItens = new frmGestaoDeItens();
+            ofrmGestaoDeItens.ShowDialog();
         }
     }
 }

@@ -3,7 +3,6 @@ E:\CursoB1Source\CursoB1\ChooseFromList\bin\x64\Debug\ChooseFromList.exe
 E:\CursoB1Source\CursoB1\ChooseFromList\bin\x64\Debug\ChooseFromList.pdb
 E:\CursoB1Source\CursoB1\ChooseFromList\bin\x64\Debug\HelperB1.dll
 E:\CursoB1Source\CursoB1\ChooseFromList\bin\x64\Debug\HelperB1.pdb
-E:\CursoB1Source\CursoB1\ChooseFromList\obj\x64\Debug\ChooseFromList.csprojAssemblyReference.cache
 E:\CursoB1Source\CursoB1\ChooseFromList\obj\x64\Debug\Interop.SAPbouiCOM.dll
 E:\CursoB1Source\CursoB1\ChooseFromList\obj\x64\Debug\ChooseFromList.csproj.ResolveComReference.cache
 E:\CursoB1Source\CursoB1\ChooseFromList\obj\x64\Debug\ChooseFromList.csproj.CoreCompileInputs.cache

@@ -1,7 +1,6 @@
 E:\CursoB1Source\CursoB1\ProgressBar\bin\x64\Debug\ProgressBar.exe.config
 E:\CursoB1Source\CursoB1\ProgressBar\bin\x64\Debug\ProgressBar.exe
 E:\CursoB1Source\CursoB1\ProgressBar\bin\x64\Debug\ProgressBar.pdb
-E:\CursoB1Source\CursoB1\ProgressBar\obj\x64\Debug\ProgressBar.csprojAssemblyReference.cache
 E:\CursoB1Source\CursoB1\ProgressBar\obj\x64\Debug\Interop.SAPbouiCOM.dll
 E:\CursoB1Source\CursoB1\ProgressBar\obj\x64\Debug\ProgressBar.csproj.ResolveComReference.cache
 E:\CursoB1Source\CursoB1\ProgressBar\obj\x64\Debug\ProgressBar.Form1.resources

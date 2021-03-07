@@ -6,4 +6,3 @@ E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csp
 E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.exe
 E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.pdb
-E:\CursoB1Source\CursoB1\FormularioComplexo\obj\x64\Debug\FormularioComplexo.csprojAssemblyReference.cache

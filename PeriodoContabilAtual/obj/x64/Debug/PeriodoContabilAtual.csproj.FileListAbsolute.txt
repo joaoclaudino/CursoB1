@@ -3,7 +3,6 @@ E:\CursoB1Source\CursoB1\PeriodoContabilAtual\bin\x64\Debug\PeriodoContabilAtual
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\bin\x64\Debug\PeriodoContabilAtual.pdb
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\bin\x64\Debug\HelperB1.dll
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\bin\x64\Debug\HelperB1.pdb
-E:\CursoB1Source\CursoB1\PeriodoContabilAtual\obj\x64\Debug\PeriodoContabilAtual.csprojAssemblyReference.cache
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\obj\x64\Debug\Interop.SAPbouiCOM.dll
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\obj\x64\Debug\PeriodoContabilAtual.csproj.ResolveComReference.cache
 E:\CursoB1Source\CursoB1\PeriodoContabilAtual\obj\x64\Debug\PeriodoContabilAtual.csproj.CoreCompileInputs.cache

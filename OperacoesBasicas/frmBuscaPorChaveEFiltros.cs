@@ -55,6 +55,24 @@ namespace OperacoesBasicas
                 else if (this.listBox2.SelectedIndex == 1)//Item
                 {
                     oItem = (SAPbobsCOM.Items)Global.oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oItems);
+
+                    oRecordset = oSBObob.GetObjectKeyBySingleValue(SAPbobsCOM.BoObjectTypes.oItems, this.textBox2.Text, textBox3.Text, (SAPbobsCOM.BoQueryConditions)this.listBox3.SelectedIndex);
+                    this.listBox1.Items.Add("ItemCode" + "\t" + "\t" + "ItemName");
+                    this.listBox1.Items.Add("-------------------------------");
+
+                    //oRecordset.MoveFirst();
+
+
+                    while (!(oRecordset.EoF == true))
+                    {
+                        if (oRecordset.EoF == false && i < Convert.ToInt32(this.textBox1.Text))
+                        {
+                            oItem.GetByKey(oRecordset.Fields.Item(0).Value.ToString());
+                            this.listBox1.Items.Add(oItem.ItemCode + "\t" + "\t" + oItem.ItemName);
+                            i++;
+                        }
+                        oRecordset.MoveNext();
+                    }
                 }
             }
             catch (Exception ex)
