@@ -384,15 +384,14 @@ ChooseFromList/bin/x86/
 ChooseFromList/obj/x86/
 
 
-*/bin/x64/Debug/x86/
-*/bin/x64/Release/x86/
-*/obj/x64/Debug/x86/
-*/obj/x64/Release/x86/
-*/bin/Debug/x86/
-*/bin/Release/x86/
-*/obj/Debug/x86/
-*/obj/Release/x86/
+**/bin/x64/Debug/
+**/bin/x64/Release/
+
+**/bin/x64/Debug/*
+**/bin/x64/Release/*
 
 
+**/bin/*
+**/obj/*
 */bin/*
 */obj/*
