@@ -362,25 +362,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-/bin/
-/obj/
-/bin/x64/Debug/
-/obj/x64/Debug/
-/x64/
-/x86/
-**/bin/*
-**/obj/*
+bin/x64/Debug/
+obj/x64/Debug/
 
 
-debug/
-debugPublic/
-release/
-Releases/
-x64/
-x86/
-bld/
-bin/
-obj/
-Uut/
-Log/
-Logs/
