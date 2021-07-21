@@ -8,3 +8,13 @@ E:\CursoB1Source\CursoB1\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.cspro
 E:\CursoB1Source\CursoB1\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.exe
 E:\CursoB1Source\CursoB1\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.pdb
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\bin\x64\Debug\TrabalhandoComXML.exe.config
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\bin\x64\Debug\TrabalhandoComXML.exe
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\bin\x64\Debug\TrabalhandoComXML.pdb
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.Properties.Resources.resources
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.exe
+E:\CursoB1Source\CursoB1GITWIN\TrabalhandoComXML\obj\x64\Debug\TrabalhandoComXML.pdb

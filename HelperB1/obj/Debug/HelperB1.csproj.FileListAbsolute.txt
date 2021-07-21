@@ -6,3 +6,10 @@ E:\CursoB1Source\CursoB1\HelperB1\obj\Debug\HelperB1.csproj.ResolveComReference.
 E:\CursoB1Source\CursoB1\HelperB1\obj\Debug\HelperB1.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\HelperB1\obj\Debug\HelperB1.dll
 E:\CursoB1Source\CursoB1\HelperB1\obj\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\bin\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\bin\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\obj\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\obj\Debug\HelperB1.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\obj\Debug\HelperB1.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\obj\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1GITWIN\HelperB1\obj\Debug\HelperB1.pdb

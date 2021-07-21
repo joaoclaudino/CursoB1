@@ -138,7 +138,7 @@ namespace StatusBar
             this.oButtonMenssagem = UIHelper.AddBotaoAoFormulario(this.oForm, "BTN_STATUS", 90, 150, 53, 19, "Monstrar Menssagem");
             this.oItemRect = UIHelper.AddRectAoFormulario(this.oForm, "Rect1", 0,344,1,45);
             this.oComboBoxTypeMessage = UIHelper.AddComboBoxAoFormulario(this.oForm, "ComboBox1", 157, 163, 24, 14);
-            this.oEditTextMessage = UIHelper.AdcionarEditTextAoFormulario(this.oForm, "edtMessage", 157, 163, 8, 14);
+            this.oEditTextMessage = UIHelper.AdcionarEditTextAoFormulario(this.oForm, "edtMessage", 157, 163, 8, 14,"");
             this.oStaticTextMensagem = UIHelper.AdcionarStaticTextAoFormulario(this.oForm, "st01",7,148,8,14,"Mensagem de Texto: ", "edtMessage");
             this.oStaticTextTipoMensagem = UIHelper.AdcionarStaticTextAoFormulario(this.oForm, "st02",7,148,24,14,"Tipo de Mensagem: ", "ComboBox1");
 

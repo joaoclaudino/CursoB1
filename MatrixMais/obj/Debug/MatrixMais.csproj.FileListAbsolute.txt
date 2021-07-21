@@ -13,3 +13,17 @@ E:\CursoB1Source\CursoB1\MatrixMais\obj\Debug\MatrixMais.csproj.CoreCompileInput
 E:\CursoB1Source\CursoB1\MatrixMais\obj\Debug\MatrixMais.csproj.CopyComplete
 E:\CursoB1Source\CursoB1\MatrixMais\obj\Debug\MatrixMais.exe
 E:\CursoB1Source\CursoB1\MatrixMais\obj\Debug\MatrixMais.pdb
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\bin\Debug\MatrixMais.exe.config
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\bin\Debug\MatrixMais.exe
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\bin\Debug\MatrixMais.pdb
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\bin\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\bin\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.Form1.resources
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.Properties.Resources.resources
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.csproj.GenerateResource.cache
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.csproj.CopyComplete
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.exe
+E:\CursoB1Source\CursoB1GITWIN\MatrixMais\obj\Debug\MatrixMais.pdb

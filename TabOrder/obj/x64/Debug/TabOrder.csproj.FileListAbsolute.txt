@@ -10,3 +10,15 @@ E:\CursoB1Source\CursoB1\TabOrder\obj\x64\Debug\TabOrder.csproj.CopyComplete
 E:\CursoB1Source\CursoB1\TabOrder\obj\x64\Debug\TabOrder.exe
 E:\CursoB1Source\CursoB1\TabOrder\obj\x64\Debug\TabOrder.pdb
 E:\CursoB1Source\CursoB1\TabOrder\bin\x64\Debug\TabOrder.srf
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\TabOrder.srf
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\TabOrder.exe.config
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\TabOrder.exe
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\TabOrder.pdb
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\HelperB1.dll
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\bin\x64\Debug\HelperB1.pdb
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\TabOrder.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\TabOrder.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\TabOrder.csproj.CopyComplete
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\TabOrder.exe
+E:\CursoB1Source\CursoB1GITWIN\TabOrder\obj\x64\Debug\TabOrder.pdb

@@ -6,3 +6,11 @@ E:\CursoB1Source\CursoB1\EventFilter\obj\x64\Debug\EventFilter.csproj.ResolveCom
 E:\CursoB1Source\CursoB1\EventFilter\obj\x64\Debug\EventFilter.csproj.CoreCompileInputs.cache
 E:\CursoB1Source\CursoB1\EventFilter\obj\x64\Debug\EventFilter.exe
 E:\CursoB1Source\CursoB1\EventFilter\obj\x64\Debug\EventFilter.pdb
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\bin\x64\Debug\EventFilter.exe.config
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\bin\x64\Debug\EventFilter.exe
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\bin\x64\Debug\EventFilter.pdb
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\obj\x64\Debug\Interop.SAPbouiCOM.dll
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\obj\x64\Debug\EventFilter.csproj.ResolveComReference.cache
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\obj\x64\Debug\EventFilter.csproj.CoreCompileInputs.cache
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\obj\x64\Debug\EventFilter.exe
+E:\CursoB1Source\CursoB1GITWIN\EventFilter\obj\x64\Debug\EventFilter.pdb
