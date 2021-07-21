@@ -144,5 +144,11 @@ namespace OperacoesBasicas.SerialELote
                 }
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmEntrada ofrmEntrada = new frmEntrada();
+            ofrmEntrada.ShowDialog();
+        }
     }
 }

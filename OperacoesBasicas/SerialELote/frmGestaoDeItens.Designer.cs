@@ -226,6 +226,7 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "Entrada";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // frmGestaoDeItens
             // 

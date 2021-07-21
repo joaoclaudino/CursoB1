@@ -92,6 +92,12 @@
     <Compile Include="frmChavePrivada.Designer.cs">
       <DependentUpon>frmChavePrivada.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntrada.Designer.cs">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEscolherBD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmChavePrivada.resx">
       <DependentUpon>frmChavePrivada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntrada.resx">
+      <DependentUpon>frmEntrada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEscolherBD.resx">
       <DependentUpon>frmEscolherBD.cs</DependentUpon>
