@@ -365,18 +365,29 @@ FodyWeavers.xsd
 bin/
 bin/x64/Debug/
 obj/x64/Debug/
-
 obj/
-
 x64/
 x86/
 
 
 AdicionarMenus/bin/
+AdicionarMenus/obj/
 AdicionarMenus/bin/x64/Debug/
 AdicionarMenus/obj/x64/Debug/
+AdicionarMenus/obj/x86/
+AdicionarMenus/obj/x86/
 
-AdicionarMenus/obj/
+ChooseFromList/bin/
+ChooseFromList/obj/
 
-AdicionarMenus/x64/
-AdicionarMenus/x86/
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+
+*.bin/*
+*.obj/*
+*bin/*
+*obj/*
+*bin/
+*obj/
