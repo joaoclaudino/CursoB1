@@ -370,10 +370,11 @@ x64/
 x86/
 
 ChooseFromList/bin/
-ChooseFromList/obj/
 ChooseFromList/bin/x64/Debug/
 ChooseFromList/obj/x64/Debug/
-ChooseFromList/bin/x86/
+ChooseFromList/obj/
+
+ChooseFromList/bin/x64/
 ChooseFromList/obj/x86/
 
 

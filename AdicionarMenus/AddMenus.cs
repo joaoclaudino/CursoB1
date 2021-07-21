@@ -9,7 +9,7 @@ using Application = System.Windows.Forms.Application;
 
 namespace AdicionarMenus
 {
-    public class AddMenus
+    public class AddMenus//
     {
         private SAPbouiCOM.Application oApplication;
         private SAPbouiCOM.Form oForm;

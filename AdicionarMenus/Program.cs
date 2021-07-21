@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace AdicionarMenus
 {
-    static class Program
+    static class Program//
     {
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
