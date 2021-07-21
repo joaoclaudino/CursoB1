@@ -147,8 +147,8 @@ namespace UsandoMatrix
         private void CriarFormularioComMatrix()
         {
             SAPbouiCOM.Button oButton = null;
-            SAPbouiCOM.StaticText oStaticText = null;
-            SAPbouiCOM.EditText oEditText = null;
+            //SAPbouiCOM.StaticText oStaticText = null;
+            //SAPbouiCOM.EditText oEditText = null;
 
             SAPbouiCOM.FormCreationParams oCreationParams = null;
             oCreationParams = ((SAPbouiCOM.FormCreationParams)(oApplication.CreateObject(SAPbouiCOM.BoCreatableObjectType.cot_FormCreationParams)));

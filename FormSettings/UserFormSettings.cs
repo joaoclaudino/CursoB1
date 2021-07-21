@@ -20,7 +20,7 @@ namespace FormSettings
         private SAPbouiCOM.Button oButtonOK;
         private SAPbouiCOM.Button oButtonCancel;
 
-        private SAPbouiCOM.Item oItem;
+        //private SAPbouiCOM.Item oItem;
         private SAPbouiCOM.Matrix oMatrix1;
         private SAPbouiCOM.Matrix oMatrix2;
 

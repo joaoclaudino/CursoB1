@@ -13,14 +13,14 @@ namespace ClickBotaoDireitoDoMouse
         private SAPbouiCOM.Application oApplication;
         private SAPbouiCOM.Form oForm;
 
-        private SAPbouiCOM.Item oItem;
+        //private SAPbouiCOM.Item oItem;
         private SAPbouiCOM.StaticText oExpTxt1;
         private SAPbouiCOM.StaticText oExpTxt2;
         private SAPbouiCOM.StaticText oExpTxt3;
         private SAPbouiCOM.StaticText oExpTxt4;
 
         private SAPbouiCOM.EditText oEditTxt;
-        private SAPbouiCOM.Button oBtnCol;
+        //private SAPbouiCOM.Button oBtnCol;
 
 
         public RigthClick()

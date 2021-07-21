@@ -25,7 +25,7 @@ namespace Matrix_e_Grid
         private SAPbouiCOM.IMatrix oMatrix;
         private SAPbouiCOM.IGrid oGrid;
 
-        private SAPbouiCOM.IColumn oColumn;
+        //private SAPbouiCOM.IColumn oColumn;
 
         private SAPbouiCOM.IDataTable oDataTable;
 

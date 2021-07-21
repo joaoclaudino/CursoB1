@@ -41,9 +41,9 @@ namespace AdicionarMenus
             SAPbouiCOM.Menus oMenus = null;
             SAPbouiCOM.MenuItem oMenuItem = null;
 
-            int i = 0;
-            int iAddAfter = 0;
-            string sXML = null;
+            //int i = 0;
+            //int iAddAfter = 0;
+            //string sXML = null;
             string sPath = null;
 
             oMenus = oApplication.Menus;

@@ -94,7 +94,7 @@ namespace TabOrder
         {
             this.oForm.Freeze(true);
             SAPbouiCOM.EditText oEdit = null;
-            int t = 0, left = 0, diff = 0, rigth = 0;
+            int left = 0, diff = 0, rigth = 0;
             left = 1;
             rigth = 2;
             diff = 100;
