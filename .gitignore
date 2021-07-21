@@ -362,37 +362,3 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-bin/
-bin/x64/Debug/
-obj/x64/Debug/
-obj/
-x64/
-x86/
-
-
-AdicionarMenus/bin/
-AdicionarMenus/obj/
-AdicionarMenus/bin/x64/Debug/
-AdicionarMenus/obj/x64/Debug/
-AdicionarMenus/bin/x86/
-AdicionarMenus/obj/x86/
-
-ChooseFromList/bin/
-ChooseFromList/obj/
-ChooseFromList/bin/x64/Debug/
-ChooseFromList/obj/x64/Debug/
-ChooseFromList/bin/x86/
-ChooseFromList/obj/x86/
-
-
-**/bin/x64/Debug/
-**/bin/x64/Release/
-
-**/bin/x64/Debug/*
-**/bin/x64/Release/*
-
-
-**/bin/*
-**/obj/*
-*/bin/*
-*/obj/*
