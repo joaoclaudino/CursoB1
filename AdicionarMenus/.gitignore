@@ -363,6 +363,10 @@ MigrationBackup/
 FodyWeavers.xsd
 
 bin/
+bin/x64/Debug/
 obj/x64/Debug/
 
 obj/
+
+x64/
+x86/
