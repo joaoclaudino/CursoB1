@@ -370,3 +370,13 @@ obj/
 
 x64/
 x86/
+
+
+AdicionarMenus/bin/
+AdicionarMenus/bin/x64/Debug/
+AdicionarMenus/obj/x64/Debug/
+
+AdicionarMenus/obj/
+
+AdicionarMenus/x64/
+AdicionarMenus/x86/
