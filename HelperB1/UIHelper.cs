@@ -56,6 +56,55 @@ namespace HelperB1
             oStaticText.Caption = pCaption;
             return oStaticText;
         }
+        public static SAPbouiCOM.EditText AdcionarEditExtendTextAoFormulario(
+            SAPbouiCOM.Form pForm
+            , string pUID
+            , int pLeft
+            , int pWidth
+            , int pTop
+            , int pHeight
+            , string pLinkTo
+            , bool AffectsFormMode = false
+            , int pFromPane = 0
+            , int pToPane = 0
+
+            )
+        {
+            Item oItem = pForm.Items.Add(pUID, BoFormItemTypes.it_EXTEDIT);
+            SAPbouiCOM.EditText oEditText = null;
+            if (pLeft > 0)
+            {
+                oItem.Left = pLeft;
+            }
+            if (pWidth > 0)
+            {
+                oItem.Width = pWidth;
+            }
+            if (pTop > 0)
+            {
+                oItem.Top = pTop;
+            }
+            if (pHeight > 0)
+            {
+                oItem.Height = pHeight;
+            }
+            oItem.AffectsFormMode = AffectsFormMode;
+            if (pFromPane > 0)
+            {
+                oItem.FromPane = pFromPane;
+            }
+            if (pToPane > 0)
+            {
+                oItem.ToPane = pToPane;
+            }
+            if (!string.IsNullOrEmpty(pLinkTo))
+            {
+                oItem.LinkTo = pLinkTo;
+            }
+
+            oEditText = ((SAPbouiCOM.EditText)(oItem.Specific));
+            return oEditText;
+        }
         public static SAPbouiCOM.EditText AdcionarEditTextAoFormulario(
             SAPbouiCOM.Form pForm
             , string pUID

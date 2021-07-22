@@ -27,6 +27,17 @@ namespace MatrixMais
 
         private SAPbouiCOM.IComboBox oCombo;
 
+        private String oString;
+        private SAPbouiCOM.IEditText oEditText;
+        private SAPbouiCOM.Button oButton;
+        private bool bIsMatrix = true;
+        private int lRowNeedToMerge = 0;
+        bool[] bSperateLine;/*= new bool[20] 
+        { 
+            true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true 
+        };*/
+        SAPbouiCOM.Cell oCell;
+
         public Form1()
         {
             InitializeComponent();
@@ -35,22 +46,159 @@ namespace MatrixMais
             this.oForm.Visible = true;
 
             this.oApplication.ItemEvent += OApplication_ItemEvent;
+            this.oApplication.FormDataEvent += OApplication_FormDataEvent;
 
+        }
+
+        private void OApplication_FormDataEvent(ref SAPbouiCOM.BusinessObjectInfo BusinessObjectInfo, out bool BubbleEvent)
+        {
+            BubbleEvent = true;
+            oString = BusinessObjectInfo.ObjectKey;
         }
 
         private void OApplication_ItemEvent(string FormUID, ref SAPbouiCOM.ItemEvent pVal, out bool BubbleEvent)
         {
             BubbleEvent = true;
-            if (pVal.EventType==SAPbouiCOM.BoEventTypes.et_CLICK)
+            if (pVal.EventType==SAPbouiCOM.BoEventTypes.et_CLICK && pVal.FormUID== "longtext" && pVal.ItemUID == "1")
             {
+                SAPbouiCOM.IForm otempForm;
+                otempForm = this.oApplication.Forms.Item("longtext");
+                oEditText = (SAPbouiCOM.EditText)otempForm.Items.Item("multiedit").Specific;
+                oString = oEditText.Value;
+                otempForm.Visible = false;
+                if (bIsMatrix)
+                {
+                    oForm = this.oApplication.Forms.Item("Especial");
+                    oMatrix = (SAPbouiCOM.Matrix)oForm.Items.Item("matrix1").Specific;
+                    oMatrix.CommonSetting.MergeCell(lRowNeedToMerge, 2, true);
+                    oColumn = oMatrix.Columns.Item("mergecell");
 
+                    oCell = oColumn.Cells.Item(lRowNeedToMerge);
+                    oEditText = (SAPbouiCOM.EditText)oCell.Specific;
+                    oEditText.Value = oString;
+                    oMatrix.FlushToDataSource();
+                }
+                oForm.Update();
+                otempForm.Close();
+            }
+            if (pVal.ItemUID == "matrix1")
+            {
+                oItem = oForm.Items.Item(pVal.ItemUID);
+                if (oItem.Type == SAPbouiCOM.BoFormItemTypes.it_MATRIX)
+                {
+                    bIsMatrix = true;
+                    oItem = oForm.Items.Item(pVal.ItemUID);
+                    oMatrix = (SAPbouiCOM.Matrix)oItem.Specific;
+                    oColumn = oMatrix.Columns.Item("Picture");
+
+                    if (pVal.EventType == SAPbouiCOM.BoEventTypes.et_COMBO_SELECT && pVal.BeforeAction == false)
+                    {
+                        oCombo = (SAPbouiCOM.ComboBox)oColumn.Cells.Item(pVal.Row).Specific;
+                        oString = oCombo.Selected.Value;
+                        if (oString == "T")
+                        {
+                            lRowNeedToMerge = pVal.Row;
+                            SAPbouiCOM.EditText oTMPET = (SAPbouiCOM.EditText)oMatrix.Columns.Item("mergecell").Cells.Item(lRowNeedToMerge).Specific;
+                            PopUp_Text_Form(oTMPET.String);
+                        }
+                        else if (oString == "S")
+                        {
+                            oMatrix.CommonSetting.SeparateLine(pVal.Row, 11111, SAPbouiCOM.BoSeparateLineType.slt_Top);
+                            int GreyColor = 222 | (223 << 8) | (222 << 16);
+                            oMatrix.CommonSetting.SetRowBackColor(pVal.Row, GreyColor);
+
+                            bSperateLine[pVal.Row] = !bSperateLine[pVal.Row];
+                            int value = MatrixCalculateTotal(pVal.Row);
+
+                            oEditText = (SAPbouiCOM.EditText)oMatrix.Columns.Item("U_total").Cells.Item(pVal.Row).Specific;
+                            oEditText.Value = Convert.ToString(value);
+
+                        }
+
+                        oForm.Update();
+                    }
+
+                }
             }
         }
+        private int MatrixGetLastTotalRow(int row)
+        {
+            int last = 0;
+            for (int i = 1; i < row; i++)
+            {
+                oColumn = oMatrix.Columns.Item("Picture");
+                oCell = oColumn.Cells.Item(i);
+                oCombo = (SAPbouiCOM.ComboBox)oCell.Specific;
+                if (oCombo.Selected == null)
+                    continue;
+                oString = oCombo.Selected.Value;
+                if (oString == "S")
+                {
+                    last = i;
+                }
+            }
+            return last;
+        }
+        private int MatrixCalculateTotal(int row)
+        {
+            int total = 0;
+            int tmp = 0;
+            int last = MatrixGetLastTotalRow(row);
 
+            for (int i = last + 1; i < row; i++)
+            {
+                oCombo = (SAPbouiCOM.ComboBox)oMatrix.Columns.Item("Picture").Cells.Item(i).Specific;
+                if (oCombo.Selected != null)
+                {
+                    oString = oCombo.Selected.Value;
+                    if (oString == "T")
+                        continue;
+                }
+                oColumn = oMatrix.Columns.Item("U_total");
+                oCell = oColumn.Cells.Item(i);
+                oEditText = (SAPbouiCOM.EditText)oCell.Specific;
+                if (String.IsNullOrEmpty(oEditText.Value))
+                {
+                    oEditText.Value = "0";
+                }
+                oString = oEditText.Value;
+                tmp = Convert.ToInt16(oString);
+                total += tmp;
+
+            }
+            return total;
+        }
+        private void PopUp_Text_Form(string inital)
+        {
+            int oTop, oLeft, oHeight, oWidth;
+
+            SAPbouiCOM.Form oMyForm;
+            oMyForm = UIHelper.CriarForm(
+                this.oApplication, SAPbouiCOM.BoFormBorderStyle.fbs_Sizable, "longtext", "longtext"
+                , 376, 544, true, 0, "Texto Longo", 0, 0, 50, 0);
+            oMyForm.Visible = true;
+
+            oEditText = UIHelper.AdcionarEditExtendTextAoFormulario(oMyForm, "multiedit", 0, 526, 0, 298, "", false, 0, 0);
+            oEditText.Active = true;
+            oEditText.Value = inital;
+
+            oTop = oEditText.Item.Top;
+            oLeft = oEditText.Item.Left;
+            oHeight = oEditText.Item.Height;
+            oWidth = oEditText.Item.Width;
+
+            oButton = UIHelper.AddBotaoAoFormulario(oMyForm, "1", oLeft + 3,70, oTop + oHeight + 50, 20, "Ok", false);
+            oTop = oButton.Item.Top;
+            oLeft = oButton.Item.Left;
+            oHeight = oButton.Item.Height;
+            oWidth = oButton.Item.Width;
+
+            oButton = UIHelper.AddBotaoAoFormulario(oMyForm, "2", oLeft + oWidth+ 5, oWidth, oTop , oHeight, "Cancelar", false);
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             this.oDBDataSource = this.oForm.DataSources.DBDataSources.Add("OITM");
-            this.oUserDataSource = this.oForm.DataSources.UserDataSources.Add("user1", SAPbouiCOM.BoDataType.dt_SHORT_TEXT, 20);
+            this.oUserDataSource = this.oForm.DataSources.UserDataSources.Add("user1", SAPbouiCOM.BoDataType.dt_LONG_TEXT, 100);
 
             this.oItem = this.oForm.Items.Add("matrix1", SAPbouiCOM.BoFormItemTypes.it_MATRIX);
             this.oItem.Height = Convert.ToInt32(this.oForm.Height * 0.7);
@@ -120,10 +268,18 @@ namespace MatrixMais
             this.oDBDataSource.Query(null);
             this.oMatrix.LoadFromDataSource();
 
+            bSperateLine = new bool[this.oMatrix.RowCount + 1];
+            bSperateLine = Enumerable.Repeat(true, this.oMatrix.RowCount + 1).ToArray();
+
             this.oColumn = this.oMatrix.Columns.Item("Picture");
             this.oCombo = (SAPbouiCOM.ComboBox)this.oColumn.Cells.Item(1).Specific;
-            string sPathImage = "C:\\BitMap\\Smile.bmp";
-            
+
+
+
+            string sPathImage = System.Windows.Forms.Application.StartupPath + @"\Smile.bmp";
+
+            sPathImage = "E:\\CursoB1Source\\CursoB1GITWIN\\BMP\\Smile.bmp";
+
             this.oCombo.ValidValues.Add(sPathImage, "picture");
             this.oCombo.ValidValues.Add("T", "Text");
             this.oCombo.ValidValues.Add("A", "Alternative");

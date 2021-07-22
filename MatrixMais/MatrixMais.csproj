@@ -138,5 +138,10 @@
       <Name>HelperB1</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Smile.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AdditionalFiles>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
