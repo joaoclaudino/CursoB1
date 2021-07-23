@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{4ECC9A79-9A2A-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacoesBasicas", "OperacoesBasicas\OperacoesBasicas.csproj", "{7D941B84-5047-4DF0-943A-102F1F5C4B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogos", "Dialogos\Dialogos.csproj", "{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +367,18 @@ Global
 		{7D941B84-5047-4DF0-943A-102F1F5C4B8B}.Release|x64.Build.0 = Release|x64
 		{7D941B84-5047-4DF0-943A-102F1F5C4B8B}.Release|x86.ActiveCfg = Release|x86
 		{7D941B84-5047-4DF0-943A-102F1F5C4B8B}.Release|x86.Build.0 = Release|x86
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|x64.ActiveCfg = Debug|x64
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|x64.Build.0 = Debug|x64
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|x64.ActiveCfg = Release|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|x64.Build.0 = Release|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4388DE13-B1EF-4ED3-B295-2B1133E0A52F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
