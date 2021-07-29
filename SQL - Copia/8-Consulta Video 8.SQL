@@ -1,0 +1,8 @@
+SELECT T0.cardcode      AS 'BP Code',
+       T0.cardname      AS 'BP Named',
+       Sum(T0.doctotal) AS 'Total'
+FROM   dbo.oinv T0
+WHERE  T0.cardcode < 'C100003'
+GROUP  BY T0.cardcode,
+          T0.cardname5 
+------------------------------------

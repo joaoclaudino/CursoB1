@@ -9,6 +9,32 @@ namespace HelperB1
 {
     public static class AppHelper
     {
+        public static void SetApplicationWithDI(ref SAPbouiCOM.Application pApplication, ref SAPbobsCOM.Company pCompany)
+        {
+            SAPbouiCOM.SboGuiApi oSboGuiApi = null;
+            string sConnectionString = null;
+            oSboGuiApi = new SAPbouiCOM.SboGuiApi();
+            sConnectionString = System.Convert.ToString(Environment.GetCommandLineArgs().GetValue(1));
+
+            try
+            {
+                oSboGuiApi.Connect(sConnectionString);
+
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+                System.Environment.Exit(0);
+            }
+            pApplication = oSboGuiApi.GetApplication(-1);
+            pCompany = pApplication.Company.GetDICompany();
+
+            pApplication.SetStatusBarMessage(string.Format("Addon {0} Conectado Com sucesso com DIAPI e UIAPI!!!",
+                            System.Windows.Forms.Application.ProductName),
+                            BoMessageTime.bmt_Medium
+                            , false);
+        }
+
         public static void SetApplication(ref SAPbouiCOM.Application pApplication)
         {
             SAPbouiCOM.SboGuiApi oSboGuiApi = null;
