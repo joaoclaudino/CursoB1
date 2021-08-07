@@ -9,6 +9,23 @@ namespace HelperB1
 {
     public static class AppHelper
     {
+        public static void LimparObjeto(Object obj)
+        {
+            try
+            {
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(obj);
+
+            }
+            catch { }
+            try
+            {
+                obj = null;
+            }
+            catch { }
+            GC.Collect();
+            GC.WaitForFullGCComplete();
+
+        }
         public static void SetApplicationWithDI(ref SAPbouiCOM.Application pApplication, ref SAPbobsCOM.Company pCompany)
         {
             SAPbouiCOM.SboGuiApi oSboGuiApi = null;
