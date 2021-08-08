@@ -1,0 +1,5 @@
+use SBODemoBR
+go
+
+SELECT  *
+FROM	ORDR

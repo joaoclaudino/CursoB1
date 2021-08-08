@@ -1,0 +1,5 @@
+
+use SBODemoBR
+go
+SELECT TOP(5) T0.GrosProfit
+FROM 	ORDR T0
